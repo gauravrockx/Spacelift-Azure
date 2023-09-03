@@ -6,6 +6,10 @@ terraform {
     }
   }
 }
+provider "azurerm" {
+
+  features {}
+}
 
 
 #Resource Group Creation
